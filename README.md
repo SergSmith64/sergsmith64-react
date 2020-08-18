@@ -15,3 +15,5 @@
 ##
 
 6. npm i react-router-dom
+
+7. add Pages: Home, About, Contacts, Blog
