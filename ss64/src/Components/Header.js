@@ -14,6 +14,7 @@ export default class Header extends Component {
     render() {
         return (
             <>
+            <Router>
             {/* <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark" > */}
             <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" >
                 <Container>
@@ -24,15 +25,21 @@ export default class Header extends Component {
                             width="30"
                             className="d-inline-block align-top"
                             alt="Logo"
-                        />
+                        />{" "}
+                        React
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="/"> Home </Nav.Link>
-                            <Nav.Link href="/about"> About us </Nav.Link>
-                            <Nav.Link href="/contacts"> Contacts </Nav.Link>
-                            <Nav.Link href="/blog"> Blog </Nav.Link>
+                            {/* <Nav.Link href="/"> Home </Nav.Link> */}
+                            {/* <Nav.Link href="/about"> About us </Nav.Link> */}
+                            {/* <Nav.Link href="/contacts"> Contacts </Nav.Link> */}
+                            {/* <Nav.Link href="/blog"> Blog </Nav.Link> */}
+
+                            <Nav.Link as={Link} to ="/">Home</Nav.Link>
+                            <Nav.Link as={Link} to ="/about"> About us </Nav.Link>
+                            <Nav.Link as={Link} to ="/contacts"> Contacts </Nav.Link>
+                            <Nav.Link as={Link} to ="/blog"> Blog </Nav.Link>
                         </Nav>
                         <Form inline >
                             <FormControl 
@@ -46,7 +53,8 @@ export default class Header extends Component {
                 </Container>
             </Navbar>
 
-            <Router>
+            
+            {/* -- open-tag <Router> remove below return -- */}
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />
