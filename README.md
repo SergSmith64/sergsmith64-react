@@ -18,6 +18,8 @@
 
 7. add Pages: Home, About, Contacts, Blog
 
-8. For work <Routing>:
+8. For work Routing:
 * string: <Nav.Link href="/"> Home </Nav.Link>
 * changes: <Nav.Link as={Link} to ="/">Home</Nav.Link>
+
+9. Slider (CarouselBox) place in Home
