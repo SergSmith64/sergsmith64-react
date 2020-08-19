@@ -23,3 +23,5 @@
 * changes: <Nav.Link as={Link} to ="/">Home</Nav.Link>
 
 9. Slider (CarouselBox) place in Home
+
+10. Tabs in About
