@@ -25,3 +25,5 @@
 9. Slider (CarouselBox) place in Home
 
 10. Tabs in About
+
+11. Form in Contacts
