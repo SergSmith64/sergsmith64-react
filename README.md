@@ -27,3 +27,7 @@
 10. Tabs in About
 
 11. Form in Contacts
+
+12. First use scss-style: npm i node-sass
+
+13. add margin-top: 60px (as class="containerContent") for About, Blog & Contacts
