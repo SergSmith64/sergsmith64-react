@@ -55,4 +55,4 @@ npm install -g firebase-tools
 Выполните эту команду в корневом каталоге приложения:
 firebase init
 
-22. firebase deploy
+22. firebase deploy: https://sergsmith64-react.web.app/
