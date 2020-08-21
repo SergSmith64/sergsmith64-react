@@ -39,3 +39,5 @@
 16. add "homepage" in package.json & add .htaccess - only for hosting
 
 ##
+
+17. DELETE homepage & .htaccess
