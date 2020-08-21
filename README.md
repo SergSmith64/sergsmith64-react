@@ -31,3 +31,5 @@
 12. First use scss-style: npm i node-sass
 
 13. add margin-top: 60px (as class="containerContent") for About, Blog & Contacts
+
+14. add CardDeck & Card
