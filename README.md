@@ -41,3 +41,18 @@
 ##
 
 17. DELETE homepage & .htaccess
+
+18. Для размещения сайта в Firebase Hosting требуется интерфейс командной строки Firebase.
+( Hosting a site on Firebase Hosting requires a Firebase CLI )
+Устанавливаю глобально!
+npm install -g firebase-tools
+
+19. npm run build
+
+20. firebase login
+
+21. Инициируйте проект
+Выполните эту команду в корневом каталоге приложения:
+firebase init
+
+22. firebase deploy
