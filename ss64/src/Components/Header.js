@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
 import logo from './logo192.png';
-// import Switch from 'react-bootstrap/esm/Switch';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from '../Pages/Home';
