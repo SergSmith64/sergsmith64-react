@@ -13,3 +13,5 @@
 5. create Navbar in Header.js and standart dark Bootstrap Navbar Menu
 
 ## Branch Dev - real project
+
+6. add RegistrationForm to Home
