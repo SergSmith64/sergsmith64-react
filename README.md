@@ -15,3 +15,12 @@
 ## Branch Dev - real project
 
 6. add RegistrationForm to Home
+
+7. for activation gh-pages:
+
+* npm i gh-pages --save-dev
+* add to package.json after "private"
+* add to package.json 2 strings in "scripts":
+  * "predeploy": "npm run build"
+  * "deploy": "gh-pages -d build"
+

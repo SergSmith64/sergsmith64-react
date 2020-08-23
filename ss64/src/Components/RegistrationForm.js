@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Container } from 'react-bootstrap';
 
 class RegistrationForm extends Component {
 	constructor(props) {
@@ -25,12 +24,12 @@ class RegistrationForm extends Component {
 		return (
 			<form onSubmit={this.handleSubmit}>
 				<input
-					type="text"
+					type="email"
 					placeholder="E-mail"
 					value={this.state.email}
 					onChange={this.handleEmailChange}
 				/>
-				<button>Save</button>
+				<button type="submit">Save</button>
 			</form>
 		);
 	}

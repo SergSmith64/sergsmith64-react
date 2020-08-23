@@ -12,7 +12,7 @@ export default class Contacts extends Component {
 						<Form.Control type="email" placeholder="Введите Email"></Form.Control>
 						<Form.Text>
 							Мы не сообщаем никому ваши данные
-												</Form.Text>
+						</Form.Text>
 					</Form.Group>
 
 					<Form.Group controlId="formBasicPassword">
