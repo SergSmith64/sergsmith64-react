@@ -4,13 +4,19 @@ import './youtubeform.css';
 
 function YoutubeForm() {
 
-    const formik = useFormik({});
+    const formik = useFormik({
+        initialValues: {
+            name: '',
+            email: '',
+            channel: ''
+        }
+    });
 
     return (
         <div>
             <form>
                 <label htmlFor='name'>Name</label>
-                <input type='text' id='name' name='name' />
+                <input type='text' id='name' name='name' onChange={} value={} />
 
                 <label htmlFor='email'>E-mail</label>
                 <input type='email' id='email' name='email' />
