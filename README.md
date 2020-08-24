@@ -27,3 +27,5 @@
 8. create NEW branch: formik
 
 9. go to channel "Codevolution" : React Formik Tutorial
+
+10. npm install formik --save
