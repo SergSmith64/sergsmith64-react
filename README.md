@@ -25,3 +25,5 @@
   * "deploy": "gh-pages -d build"
 
 8. create NEW branch: formik
+
+9. go to channel "Codevolution" : React Formik Tutorial
