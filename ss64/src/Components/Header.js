@@ -35,18 +35,18 @@ export default class Header extends Component {
 									{/* <Nav.Link href="/contacts"> Contacts </Nav.Link> */}
 									{/* <Nav.Link href="/blog"> Blog </Nav.Link> */}
 
-									<Nav.Link as={Link} to="/">Home</Nav.Link>
-									<Nav.Link as={Link} to="/about"> About us </Nav.Link>
-									<Nav.Link as={Link} to="/contacts"> Contacts </Nav.Link>
-									<Nav.Link as={Link} to="/blog"> Blog </Nav.Link>
+									<Nav.Link as={Link} to="/">Главная</Nav.Link>
+									<Nav.Link as={Link} to="/about">Сайты</Nav.Link>
+									<Nav.Link as={Link} to="/contacts">Контакты</Nav.Link>
+									<Nav.Link as={Link} to="/blog">Блог</Nav.Link>
 								</Nav>
 								<Form inline >
 									<FormControl
 										type="text"
-										placeholder="Search"
+										placeholder="что-то ищем?"
 										className="mr-sm-2"
 									/>
-									<Button variant="outline-info">Search</Button>
+									<Button variant="outline-info">Поиск</Button>
 								</Form>
 							</Navbar.Collapse>
 						</Container>
