@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import logo from './logo192.png';
+import { Navbar, Container, Nav, Form, FormControl, Button, Image } from 'react-bootstrap';
+import logo from './ss64.jpg';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from '../Pages/Home';
@@ -10,58 +10,59 @@ import Blog from '../Pages/Blog';
 
 
 export default class Header extends Component {
-    render() {
-        return (
-            <>
-                <Router>
-                    {/* <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark" > */}
-                    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" >
-                        <Container>
-                            <Navbar.Brand href="/">
-                                <img
-                                    src={logo}
-                                    height="30"
-                                    width="30"
-                                    className="d-inline-block align-top"
-                                    alt="Logo"
-                                />{" "}
-						React
-					</Navbar.Brand>
-                            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                            <Navbar.Collapse id="responsive-navbar-nav">
-                                <Nav className="mr-auto">
-                                    {/* <Nav.Link href="/"> Home </Nav.Link> */}
-                                    {/* <Nav.Link href="/about"> About us </Nav.Link> */}
-                                    {/* <Nav.Link href="/contacts"> Contacts </Nav.Link> */}
-                                    {/* <Nav.Link href="/blog"> Blog </Nav.Link> */}
+	render() {
+		return (
+			<>
+				<Router>
+					{/* <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark" > */}
+					<Navbar collapseOnSelect expand="md" bg="dark" variant="dark" >
+						<Container>
+							<Navbar.Brand href="/">
+								<Image
+									src={logo}
+									height="40"
+									width="45"
+									className="d-inline-block align-top"
+									alt="Logo"
+									rounded
+								/>{" "}
+								{/* SS64 */}
+							</Navbar.Brand>
+							<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+							<Navbar.Collapse id="responsive-navbar-nav">
+								<Nav className="mr-auto">
+									{/* <Nav.Link href="/"> Home </Nav.Link> */}
+									{/* <Nav.Link href="/about"> About us </Nav.Link> */}
+									{/* <Nav.Link href="/contacts"> Contacts </Nav.Link> */}
+									{/* <Nav.Link href="/blog"> Blog </Nav.Link> */}
 
-                                    <Nav.Link as={Link} to="/">Home</Nav.Link>
-                                    <Nav.Link as={Link} to="/about"> About us </Nav.Link>
-                                    <Nav.Link as={Link} to="/contacts"> Contacts </Nav.Link>
-                                    <Nav.Link as={Link} to="/blog"> Blog </Nav.Link>
-                                </Nav>
-                                <Form inline >
-                                    <FormControl
-                                        type="text"
-                                        placeholder="Search"
-                                        className="mr-sm-2"
-                                    />
-                                    <Button variant="outline-info">Search</Button>
-                                </Form>
-                            </Navbar.Collapse>
-                        </Container>
-                    </Navbar>
+									<Nav.Link as={Link} to="/">Главная</Nav.Link>
+									<Nav.Link as={Link} to="/about">Сайты</Nav.Link>
+									<Nav.Link as={Link} to="/contacts">Контакты</Nav.Link>
+									<Nav.Link as={Link} to="/blog">Блог</Nav.Link>
+								</Nav>
+								<Form inline >
+									<FormControl
+										type="text"
+										placeholder="что-то ищем?"
+										className="mr-sm-2"
+									/>
+									<Button variant="outline-info">Поиск</Button>
+								</Form>
+							</Navbar.Collapse>
+						</Container>
+					</Navbar>
 
 
-                    {/* -- open-tag <Router> remove below return -- */}
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/about" component={About} />
-                        <Route exact path="/contacts" component={Contacts} />
-                        <Route exact path="/blog" component={Blog} />
-                    </Switch>
-                </Router>
-            </>
-        )
-    }
+					{/* -- open-tag <Router> remove below return -- */}
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route exact path="/about" component={About} />
+						<Route exact path="/contacts" component={Contacts} />
+						<Route exact path="/blog" component={Blog} />
+					</Switch>
+				</Router>
+			</>
+		)
+	}
 }
