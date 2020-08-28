@@ -16,7 +16,7 @@
 
 6. npm i react-router-dom
 
-7. add Pages: Home, About, Contacts, Blog
+7. add Pages: Home, Web, Contacts, Blog
 
 8. For work Routing:
 * string: <Nav.Link href="/"> Home </Nav.Link>
@@ -24,13 +24,13 @@
 
 9. Slider (CarouselBox) place in Home
 
-10. Tabs in About
+10. Tabs in About --> Web
 
 11. Form in Contacts
 
 12. First use scss-style: npm i node-sass
 
-13. add margin-top: 60px (as class="containerContent") for About, Blog & Contacts
+13. add margin-top: 60px (as class="containerContent") for Web, Blog & Contacts
 
 14. add CardDeck & Card
 
@@ -41,3 +41,5 @@
 ##
 
 17. add Logo SS64
+
+18. add screens web-sites to Web-page

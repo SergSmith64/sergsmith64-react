@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import logo from './ss64.jpg';
+import logo from './ss64.png';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from '../Pages/Home';
-import About from '../Pages/About';
+import Web from '../Pages/Web';
 import Contacts from '../Pages/Contacts';
 import Blog from '../Pages/Blog';
 
@@ -31,12 +31,12 @@ export default class Header extends Component {
 							<Navbar.Collapse id="responsive-navbar-nav">
 								<Nav className="mr-auto">
 									{/* <Nav.Link href="/"> Home </Nav.Link> */}
-									{/* <Nav.Link href="/about"> About us </Nav.Link> */}
+									{/* <Nav.Link href="/web"> Web us </Nav.Link> */}
 									{/* <Nav.Link href="/contacts"> Contacts </Nav.Link> */}
 									{/* <Nav.Link href="/blog"> Blog </Nav.Link> */}
 
 									<Nav.Link as={Link} to="/">Главная</Nav.Link>
-									<Nav.Link as={Link} to="/about">Сайты</Nav.Link>
+									<Nav.Link as={Link} to="/web">Сайты</Nav.Link>
 									<Nav.Link as={Link} to="/contacts">Контакты</Nav.Link>
 									<Nav.Link as={Link} to="/blog">Блог</Nav.Link>
 								</Nav>
@@ -56,7 +56,7 @@ export default class Header extends Component {
 					{/* -- open-tag <Router> remove below return -- */}
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route exact path="/about" component={About} />
+						<Route exact path="/web" component={Web} />
 						<Route exact path="/contacts" component={Contacts} />
 						<Route exact path="/blog" component={Blog} />
 					</Switch>
