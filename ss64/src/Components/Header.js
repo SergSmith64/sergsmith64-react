@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import logo from './logo192.png';
+import logo from './ss64.jpg';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from '../Pages/Home';
@@ -20,13 +20,13 @@ export default class Header extends Component {
 							<Navbar.Brand href="/">
 								<img
 									src={logo}
-									height="30"
-									width="30"
+									height="37"
+									width="40"
 									className="d-inline-block align-top"
 									alt="Logo"
 								/>{" "}
-						React
-					</Navbar.Brand>
+
+							</Navbar.Brand>
 							<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 							<Navbar.Collapse id="responsive-navbar-nav">
 								<Nav className="mr-auto">
