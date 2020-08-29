@@ -47,3 +47,5 @@
 19. NEW BRANCH - WebDEvBlog
 
 20. Moved Routing from Header to App
+
+21. add Footer

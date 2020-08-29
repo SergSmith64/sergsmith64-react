@@ -9,7 +9,7 @@ import Home from './Pages/Home';
 import Web from './Pages/Web';
 import Contacts from './Pages/Contacts';
 import Blog from './Pages/Blog';
-// import Footer from './Components/Footer';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -22,9 +22,8 @@ function App() {
           <Route path="/contacts" component={Contacts} />
           <Route path="/blog" component={Blog} />
         </Switch>
+        <Footer />
       </Router>
-      
-      {/* <Footer /> */}
     </div>
   );
 }
