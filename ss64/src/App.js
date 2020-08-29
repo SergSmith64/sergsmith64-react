@@ -4,11 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from './logo.svg';
 import './App.scss';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div>
       <Header />
+      <Footer />
     </div>
   );
 }
