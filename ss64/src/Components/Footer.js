@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Container, Form } from 'react-bootstrap';
+import { Navbar, Container } from 'react-bootstrap';
 import logo from './ss64.png';
 // import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -13,7 +13,8 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<>
-				<Navbar fixed="bottom" collapseOnSelect expand="md" bg="dark" variant="dark" >
+				{/* <Navbar fixed="bottom" collapseOnSelect expand="md" bg="dark" variant="dark" > */}
+				<Navbar sticky="bottom" collapseOnSelect expand="md" bg="dark" variant="dark" >
 					<Container>
 						<Navbar.Brand href="/">
 							<img
@@ -23,25 +24,11 @@ export default class Footer extends Component {
 								className="d-inline-block align-top"
 								alt="Logo"
 							/>{" "}
-
 						</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-						<Navbar.Collapse id="responsive-navbar-nav">
-
-							{/* <Nav className="mr-auto">
-								<Nav.Link as={Link} to="/">Главная</Nav.Link>
-								<Nav.Link as={Link} to="/web">Сайты</Nav.Link>
-								<Nav.Link as={Link} to="/contacts">Контакты</Nav.Link>
-								<Nav.Link as={Link} to="/blog">Блог</Nav.Link>
-							</Nav> */}
-
-							<Form inline >
-
-							</Form>
-						</Navbar.Collapse>
+						<Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
 					</Container>
 				</Navbar>
-
 			</>
 		)
 	}

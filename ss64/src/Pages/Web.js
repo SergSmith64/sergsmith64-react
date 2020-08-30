@@ -41,7 +41,7 @@ export default class Web extends Component {
 								</Nav>
 							</Col>
 							<Col sm={10}>
-								<Tab.Content className="mt-3">
+								<Tab.Content className="mt-1">
 
 									<Tab.Pane eventKey="first">
 										<h3>Сайты на CMS Wordpress / Bootstrap</h3>
