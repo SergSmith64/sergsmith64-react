@@ -12,9 +12,8 @@ import logo from './ss64.png';
 export default class Footer extends Component {
 	render() {
 		return (
-			<>
-				{/* <Navbar fixed="bottom" collapseOnSelect expand="md" bg="dark" variant="dark" > */}
-				<Navbar sticky="bottom" collapseOnSelect expand="md" bg="dark" variant="dark" >
+			<div className="foot">
+				<Navbar collapseOnSelect expand="md" bg="dark" variant="dark" >
 					<Container>
 						<Navbar.Brand href="/">
 							<img
@@ -29,7 +28,7 @@ export default class Footer extends Component {
 						<Navbar.Collapse id="responsive-navbar-nav"></Navbar.Collapse>
 					</Container>
 				</Navbar>
-			</>
+			</div>
 		)
 	}
 }

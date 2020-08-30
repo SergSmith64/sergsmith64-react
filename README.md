@@ -49,3 +49,5 @@
 20. Moved Routing from Header to App
 
 21. add Footer
+
+22. footer about 'sticky'

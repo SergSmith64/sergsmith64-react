@@ -1,17 +1,24 @@
-/* -- Фиксированная высота ВСЕХ страниц чтобы показать как работатет fixed="top" в Navbar --- */
-/* body {
-  height: 2000px;
-} */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 .App {
   text-align: center;
 }
 
-.containerContent {
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   // background-color: palevioletred;
+}
+.foot {
+  margin-top: auto;
+}
+
+.containerContent {
   padding-top: 80px;
-  // height: 100vh;
-  // height: calc(100vh - 60px);
 }
 
 /* .App-logo {
@@ -34,8 +41,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-} */
-
-/* .App-link {
-  color: #61dafb;
 } */

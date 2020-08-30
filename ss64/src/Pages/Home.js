@@ -7,9 +7,9 @@ export default class Home extends Component {
 		return (
 			<>
 				<CarouselBox />
-				<Container>
+				<Container className="mb-4">
 					<h2 className="text-center m-4">Our Team</h2>
-					<CardDeck className="m-4">
+					<CardDeck className="mt-4">
 						<Card bg="light" border="primary" text="primary">
 							<Card.Img
 								variant="top"
@@ -50,7 +50,6 @@ export default class Home extends Component {
 						</Card>
 					</CardDeck>
 				</Container>
-				<p>ЭТО ТЕКСТ БЕЗ КОНТЕЙНЕРА. Это наша дружная команда во время работы. Это наша дружная команда во время работы. Это наша дружная...</p>
 			</>
 		)
 	}

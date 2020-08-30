@@ -20,7 +20,7 @@ export default class Web extends Component {
 	render() {
 		return (
 			<div style={{ backgroundColor: "#ccc" }}>
-				<Container className="containerContent">
+				<Container className="containerContent mb-4">
 
 					<Tab.Container id="left-tabs-example" defaultActiveKey="first" >
 						<Row>

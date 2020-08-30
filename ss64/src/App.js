@@ -13,7 +13,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className="page">
       <Router>
         <Header />
         <Switch>
