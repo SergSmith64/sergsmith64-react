@@ -68,3 +68,7 @@ componentDidMount() {
     })
 }
 ~~~
+
+## GH-PAGES
+
+"homepage": "https://sergsmith64.github.io/sergsmith64-react/",
