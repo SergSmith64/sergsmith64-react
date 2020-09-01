@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
+import axios from 'axios';
 
 export default class Contacts extends Component {
+
+    // __ add axios-test __
+    componentDidMount() {
+        axios.get('https://sergsmith64-react.firebaseio.com/quiz.json').then(response => {
+            console.log(response);
+        })
+    }
+
     render() {
         return (
             <Container className="containerContent" style={{ maxWidth: '500px' }}>

@@ -25,15 +25,15 @@ export default class About extends Component {
 							<Tab.Content className="mt-3">
 								<Tab.Pane eventKey="first">
 									<h3>Это FIRST</h3>
-									<img src="https://sergsmith64.ru/add/seamless background_1.jpg" />
+									<img src="https://sergsmith64.ru/add/seamless background_1.jpg" alt="flower" />
 								</Tab.Pane>
 								<Tab.Pane eventKey="second">
 									<h3>Это SECOND</h3>
-									<img src="https://sergsmith64.ru/add/seamless background_2.jpg" />
+									<img src="https://sergsmith64.ru/add/seamless background_2.jpg" alt="flower-2" />
 								</Tab.Pane>
 								<Tab.Pane eventKey="third">
 									<h3>Это STANDUP STANDUP STANDUP</h3>
-									<img src="https://sergsmith64.ru/add/seamless background_3.jpg" />
+									<img src="https://sergsmith64.ru/add/seamless background_3.jpg" alt="flower-3" />
 								</Tab.Pane>
 							</Tab.Content>
 						</Col>

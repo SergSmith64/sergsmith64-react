@@ -58,3 +58,13 @@ firebase init
 22. firebase deploy: https://sergsmith64-react.web.app/
 
 23. npm i axios --save
+
+24. testing axios
+
+~~~javascript
+componentDidMount() {
+    axios.get('https://sergsmith64-react.firebaseio.com/quiz.json').then(response => {
+        console.log(response);
+    })
+}
+~~~
