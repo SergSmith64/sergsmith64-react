@@ -56,3 +56,5 @@ npm install -g firebase-tools
 firebase init
 
 22. firebase deploy: https://sergsmith64-react.web.app/
+
+23. npm i axios --save
