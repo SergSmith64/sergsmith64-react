@@ -1,0 +1,16 @@
+.foot {
+	// __ прижимает футер на коротких страницах __
+	margin-top: auto;
+}
+.navbarWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: lightskyblue;
+}
+
+.footerText {
+	font-size: 14px;
+	padding-left: 12px;
+}

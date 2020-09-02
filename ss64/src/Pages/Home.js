@@ -28,7 +28,7 @@ export default class Home extends Component {
 								src="https://images.pexels.com/photos/3868656/pexels-photo-3868656.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 							/> */}
 							<Card.Body>
-								<Card.Title>Developers</Card.Title>
+								<Card.Title>Designers</Card.Title>
 								<Card.Text>Это наша дружная команда во время работы</Card.Text>
 								<Button variant="primary">Web team</Button>
 							</Card.Body>
@@ -43,7 +43,7 @@ export default class Home extends Component {
 								src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 							/>
 							<Card.Body>
-								<Card.Title>Developers</Card.Title>
+								<Card.Title>Managers and Copywriters</Card.Title>
 								<Card.Text>Это наша дружная команда во время работы. Это наша дружная команда во время работы. Это наша дружная команда во время работы.</Card.Text>
 								<Button variant="primary">Web team</Button>
 							</Card.Body>
