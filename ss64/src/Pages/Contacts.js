@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import { Container, Form, Button } from 'react-bootstrap';
+import { Container, Form, Button, FormGroup } from 'react-bootstrap';
 import axios from 'axios';
 
+
+
+
+// __ add axios-test __
+
 export default class Contacts extends Component {
-
-    // __ add axios-test __
-    componentDidMount() {
-        axios.get('https://sergsmith64-react.firebaseio.com/quiz.json').then(response => {
-            console.log(response);
-        })
-    }
-
+  componentDidMount() {
+    axios.get('https://sergsmith64-react.firebaseio.com/quiz.json').then(response => {
+      console.log(response);
+     })
+  }
 	render() {
 		return (
 			<>
@@ -35,13 +37,6 @@ export default class Contacts extends Component {
 						</Form.Group>
 						<Button variant="primary" type="submit">Submit</Button>
 					</Form>
-					{/* <h3>Заголовок</h3> */}
-					{/* <p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, 
-						например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.
-					</p> */}
-					{/* <p>Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, 
-						скрытой в середине абзаца.
-					</p> */}
 			</Container>
 		</>
 		)
