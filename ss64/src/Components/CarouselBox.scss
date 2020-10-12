@@ -1,0 +1,24 @@
+.carousel-indicators li {
+    background-color: blue;
+}
+
+// .carousel h2
+
+.carousel-caption {
+    top: 60px;
+    left: 40px;
+    right: 40px;
+    // background-color: rgba(184, 181, 0, 0.5);
+}
+
+.carousel-caption h1 {
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    // font-size: 46px;
+    font-size: 2rem;
+    text-align: right;
+    // color: green;
+    // background-color: rgba(50, 50, 50, 0.5);
+}
+

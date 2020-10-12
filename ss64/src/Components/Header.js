@@ -26,7 +26,7 @@ export default class Header extends Component {
 									<Nav.Link as={Link} to="/">Главная</Nav.Link>
 									<Nav.Link as={Link} to="/web">Сайты</Nav.Link>
 									<Nav.Link as={Link} to="/contacts">Контакты</Nav.Link>
-									<Nav.Link as={Link} to="/blog">Блог</Nav.Link>
+									{/* <Nav.Link as={Link} to="/blog">Блог</Nav.Link> */}
 								</Nav>
 								<Form inline >
 									<FormControl

@@ -69,6 +69,7 @@ componentDidMount() {
 }
 ~~~
 
+25. edit index.html and upload BUILD to hosting
 
 ### Memory
 

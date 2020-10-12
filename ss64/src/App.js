@@ -8,7 +8,7 @@ import Header from './Components/Header';
 import Home from './Pages/Home';
 import Web from './Pages/Web';
 import Contacts from './Pages/Contacts';
-import Blog from './Pages/Blog';
+// import Blog from './Pages/Blog';
 import Footer from './Components/Footer';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/web" component={Web} />
           <Route path="/contacts" component={Contacts} />
-          <Route path="/blog" component={Blog} />
+          {/* <Route path="/blog" component={Blog} /> */}
         </Switch>
         <Footer />
       </Router>
