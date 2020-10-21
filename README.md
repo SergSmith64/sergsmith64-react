@@ -73,6 +73,8 @@ componentDidMount() {
 
 26. Added ads from Google and Beget
 
+27. Fix: background-color in Ads
+
 ### Memory
 
 ## GH-PAGES
