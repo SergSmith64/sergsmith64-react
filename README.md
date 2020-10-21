@@ -75,6 +75,8 @@ componentDidMount() {
 
 27. Fix: background-color in Ads
 
+28. Fix: Ads
+
 ### Memory
 
 ## GH-PAGES
