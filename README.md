@@ -71,6 +71,8 @@ componentDidMount() {
 
 25. edit index.html and upload BUILD to hosting
 
+26. Added ads from Google and Beget
+
 ### Memory
 
 ## GH-PAGES
