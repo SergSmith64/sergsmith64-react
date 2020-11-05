@@ -77,6 +77,8 @@ componentDidMount() {
 
 28. Fix: Ads
 
+29. Add rotate logo in footer
+
 ### Memory
 
 ## GH-PAGES

@@ -26,7 +26,7 @@ export default class Footer extends Component {
 									src={logoReact}
 									height="30"
 									width="30"
-									className="d-inline-block align-top"
+									className="d-inline-block align-top footer-logo"
 									alt="ReactJS"
 								/>
 								<span className="footerText">Web site created using ReactJS</span>

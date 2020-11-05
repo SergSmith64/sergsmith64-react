@@ -14,3 +14,17 @@
 	font-size: 14px;
 	padding-left: 12px;
 }
+
+.footer-logo:hover {
+	// background-color: red;
+	animation: footer-logo-spin infinite 10s linear;
+}
+
+@keyframes footer-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
