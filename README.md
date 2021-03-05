@@ -79,6 +79,8 @@ componentDidMount() {
 
 29. Add rotate logo in footer
 
+30. Add Advertive Tinkoff
+
 ### Memory
 
 ## GH-PAGES
