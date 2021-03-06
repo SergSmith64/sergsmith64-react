@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae0ad23b.chunk.css",
+    "main.js": "/static/js/main.4d389a90.chunk.js",
+    "main.js.map": "/static/js/main.4d389a90.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cfc0680d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cfc0680d.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.e57df6ad.chunk.js": "/static/js/2.e57df6ad.chunk.js",
+    "static/js/2.e57df6ad.chunk.js.map": "/static/js/2.e57df6ad.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b9fb3fae1ac8d38b5db85862db48d774.js": "/precache-manifest.b9fb3fae1ac8d38b5db85862db48d774.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.ae0ad23b.chunk.css.map": "/static/css/main.ae0ad23b.chunk.css.map",
+    "static/js/2.e57df6ad.chunk.js.LICENSE.txt": "/static/js/2.e57df6ad.chunk.js.LICENSE.txt",
+    "static/media/creating-adaptive-sites.jpg": "/static/media/creating-adaptive-sites.bb41aa26.jpg",
+    "static/media/sergsmith64-avtoservice.jpg": "/static/media/sergsmith64-avtoservice.3d2ac192.jpg",
+    "static/media/sergsmith64-banbas64.jpg": "/static/media/sergsmith64-banbas64.da6c674d.jpg",
+    "static/media/sergsmith64-betonnij-zavod.jpg": "/static/media/sergsmith64-betonnij-zavod.49233f23.jpg",
+    "static/media/sergsmith64-germany-life.jpg": "/static/media/sergsmith64-germany-life.932ba40f.jpg",
+    "static/media/sergsmith64-inoutlab.jpg": "/static/media/sergsmith64-inoutlab.bea1dab8.jpg",
+    "static/media/sergsmith64-isramedmoscow.jpg": "/static/media/sergsmith64-isramedmoscow.2e9c6c39.jpg",
+    "static/media/sergsmith64-polytehservice.jpg": "/static/media/sergsmith64-polytehservice.dc36c29e.jpg",
+    "static/media/sergsmith64-singulf.jpg": "/static/media/sergsmith64-singulf.f55cba48.jpg",
+    "static/media/sergsmith64-skupka-radioloma-drm64.jpg": "/static/media/sergsmith64-skupka-radioloma-drm64.5eb453a3.jpg",
+    "static/media/sergsmith64-spec-agro-trans.jpg": "/static/media/sergsmith64-spec-agro-trans.129d949d.jpg",
+    "static/media/sergsmith64-specii-i-pryanosti.jpg": "/static/media/sergsmith64-specii-i-pryanosti.77cd347d.jpg",
+    "static/media/sergsmith64-svoidom-info.jpg": "/static/media/sergsmith64-svoidom-info.a4840d44.jpg",
+    "static/media/sozdanie-adaptivnyh-saitov.jpg": "/static/media/sozdanie-adaptivnyh-saitov.b7022030.jpg",
+    "static/media/ss64.png": "/static/media/ss64.1cf7ed6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfc0680d.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.e57df6ad.chunk.js",
+    "static/css/main.ae0ad23b.chunk.css",
+    "static/js/main.4d389a90.chunk.js"
+  ]
+}
